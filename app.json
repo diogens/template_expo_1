@@ -1,4 +1,6 @@
 {
+  "name": "blackbox",
+  "displayName": "boilerplate",
   "expo": {
     "name": "blackbox",
     "slug": "blackbox",
@@ -6,6 +8,5 @@
     "assetBundlePatterns": [
       "**/*"
     ]
-  },
-  "name": "blackbox"
+  }
 }

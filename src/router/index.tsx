@@ -1,23 +1,12 @@
 import React from 'react'
-import { SafeAreaView, StyleSheet, Text, View, FlatList, StatusBar } from 'react-native'
-
+import { StyleSheet, Text, View, StatusBar } from 'react-native'
 
 export default function App() {
-
+  const a = 'TEXTO'
   return (
     <View style={styles.container}>
-      <StatusBar barStyle='light' />
-      <Text>OKoooooooooooooooooooooooooooooooooooooo</Text>
-      <Text>OKoooooooooooooooooooooooooooooooooooooo</Text>
-      <Text>OKoooooooooooooooooooooooooooooooooooooo</Text>
-      <Text>OKoooooooooooooooooooooooooooooooooooooo</Text>
-      <Text>OKoooooooooooooooooooooooooooooooooosssoooo</Text>
-      <Text>OKoooooooooooooooooooooooooooooooooooooo</Text>
-      <Text>OKoooooooooooooooooooooooooooooooooooooo</Text>
-      <Text>OKoooooooooooooooooooooooooooooooooooooo</Text>
-      <Text>OKoooooooooooooooooooooooooooooooooooooo</Text>
-      <Text>OKoooooooooooooooooooooooooooooooooooooo</Text>
-      <Text>OKoooooooooooooooooooooooooooooooooooooo</Text>
+      <StatusBar barStyle="light-content" />
+      <Text>{a}</Text>
     </View>
   )
 }

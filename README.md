@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://github.com/expo/examples">
     <img alt="create-react-native-app" src="./.gh-assets/banner.svg">
-    <h1 align="center">Create React Native App</h1>
+    <h1 align="center">Boilerplate Expo -v1</h1>
   </a>
 </p>
 
@@ -32,10 +32,8 @@
 <!-- Body -->
 
 ```sh
-npx create-react-native-app
+npx create-react-native-app --template https://github.com/diogens/template_expo_1
 ```
-
-Once you're up and running with Create React Native App, visit [this tutorial](https://reactnative.dev/docs/tutorial) for more information on building mobile apps with React.
 
 <p align="center">
   <img align="center" alt="Product: demo" src="./.gh-assets/crna.gif" />
@@ -56,6 +54,10 @@ Once you're up and running with Create React Native App, visit [this tutorial](h
 - `yarn ios` -- (`expo run:ios`) Build the iOS App (requires a MacOS computer).
 - `yarn android` -- (`expo run:android`) Build the Android App.
 - `yarn web` -- (`expo start:web`) Run the website in your browser.
+- `yarn generate Component` -- Create a new componente.
+- `yarn test` -- Run test.
+
+
 
 ### Templates
 
@@ -64,13 +66,6 @@ By default you create a [bare-workflow React](https://docs.expo.io/bare/explorin
 - Use an [example](https://github.com/expo/examples): `npx create-react-native-app -t with-typescript`
 - Use a custom template: `npx create-react-native-app --template https://github.com/someone/my-react-starter` -- Only works with GitHub repos on the master branch.
 - All examples can be modified in the [expo/examples](https://github.com/expo/examples) repo.
-
-## Sections
-
-- [Usage with Expo Client App](#usage-with-expo-client-app)
-- [Support and Contact](#support-and-contact)
-- [FAQs](#faqs)
-- [Contributing](#contributing)
 
 ## Usage with Expo Go App
 

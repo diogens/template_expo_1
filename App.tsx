@@ -6,7 +6,7 @@ import Router from './src/router'
 import theme from './src/styles/theme'
 import { ThemeProvider } from 'styled-components/native'
 
-const LOAD_STORYBOOK = 'true'
+const LOAD_STORYBOOK = 'false'
 
 const App = () => {
   return (

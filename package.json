@@ -11,7 +11,8 @@
     "storybook": "start-storybook -p 7007",
     "build-storybook": "build-storybook",
     "prestorybook": "rnstl",
-    "generate": "yarn plop --plopfile generators/plopfile.js"
+    "generate": "yarn plop --plopfile generators/plopfile.js",
+    "typecheck": "tsc --project tsconfig.json --noEmit"
   },
   "config": {
     "react-native-storybook-loader": {

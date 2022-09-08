@@ -9,8 +9,6 @@ describe('<Button />', () => {
       <Button title="Button" onpress={() => console.log()} />
     )
 
-    debug()
-
     expect(getByText('Button'))
   })
 })

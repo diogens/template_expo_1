@@ -24,4 +24,4 @@ const StoryBook = () => {
   )
 }
 
-export default LOAD_STORYBOOK === 'true' ? StoryBook : App
+export default LOAD_STORYBOOK === 'false' ? StoryBook : App
